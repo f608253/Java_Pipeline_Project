@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label "Jenkins_Slave"
+        label "master"
     }
     tools {
         maven 'Maven'
