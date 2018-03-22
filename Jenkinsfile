@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label "windows"
+        label "Jenkins_Slave"
     }
     tools {
         maven 'Maven'
